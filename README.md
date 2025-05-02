@@ -14,7 +14,7 @@ This project focuses on semantic segmentation of retinal images using three deep
 
 ## 📊 Results Visualization
 
-![Results Graph](/images/output.png)  
+![Results Graph](/images/Graph.png)  
 *A graph comparing Dice coefficients across models over training epochs.*
 
 ## 📐 Data Preprocessing
@@ -25,9 +25,13 @@ This project focuses on semantic segmentation of retinal images using three deep
 
 ### Image Example: Input vs Resized vs Mask
 
+- Retinal Image
+ <img src="/images/Retinal_img.png" width="300"/>
+
+
 | Original Image | One-channel Mask |
 |----------------|------------------|
-| <img src="/images/29_A.png" width="200"/> | <img src="/images/Screenshot%202025-05-02%20193631.png" width="200"/> |
+| <img src="/images/Actual.png" width="300"/> | <img src="/images/Resized_image.png" width="300"/> |
 
 ## 🧮 Dataset Conversion
 
@@ -41,7 +45,7 @@ This project focuses on semantic segmentation of retinal images using three deep
 - Optimizer: Adam
 - Evaluation metric: Dice Coefficient
 - Below image shows the predicted image by the Unet model (on an image from test set)
- ![Result](/images/unetresult.png)
+ ![Result](/images/unet_result.png)
 
 ## 📌 Conclusion
 
