@@ -20,17 +20,17 @@ This project focuses on semantic segmentation of retinal images using three deep
 ## 📐 Data Preprocessing
 
 - **Original Images**: RGB (3-channel) retinal images.
-- **Resized Images**: Images were resized to a smaller dimension for faster training.
 - **Label Adjustment**: Labels (masks) were converted from 3-channel to 1-channel (grayscale) binary masks for segmentation.
 
-### Image Example: Original vs Resized Mask
+### Original Images: Retinal Image
 
 | Retinal Image |
 |---------------|
 | <img src="/images/Retinal_img.png" width="300"/>|
 
+### Label Adjustment: Original vs Resized Ground_Truth
 
-| Original Image | One-channel Mask |
+| Original Image | One-channel Label|
 |----------------|------------------|
 | <img src="/images/Actual.png" width="300"/> | <img src="/images/Resized_image.png" width="300"/> |
 
