@@ -27,7 +27,7 @@ This project focuses on semantic segmentation of retinal images using three deep
 
 | Original Image | One-channel Mask |
 |----------------|------------------|
-| ![Original(Ground_Truth)](/images/29_A.png) | ![Resized(Ground_Truth)](/images/Screenshot%202025-05-02%20193631.png) |
+| <img src="/images/29_A.png" width="200"/> | <img src="/images/Screenshot%202025-05-02%20193631.png" width="200"/> |
 
 ## 🧮 Dataset Conversion
 
