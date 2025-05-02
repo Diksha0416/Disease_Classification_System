@@ -25,8 +25,9 @@ This project focuses on semantic segmentation of retinal images using three deep
 
 ### Image Example: Original vs Resized Mask
 
-- Retinal Image
- <img src="/images/Retinal_img.png" width="300"/>
+| Retinal Image |
+|---------------|
+| <img src="/images/Retinal_img.png" width="300"/>|
 
 
 | Original Image | One-channel Mask |
