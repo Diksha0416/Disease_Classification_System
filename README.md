@@ -22,7 +22,7 @@ This project focuses on semantic segmentation of retinal images using three deep
 - **Original Images**: RGB (3-channel) retinal images.
 - **Label Adjustment**: Labels (masks) were converted from 3-channel to 1-channel (grayscale) binary masks for segmentation.
 
-### Original Images: Retinal Image
+### Original Image: Retinal Image
 
 | Retinal Image |
 |---------------|
